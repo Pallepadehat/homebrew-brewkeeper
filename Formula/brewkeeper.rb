@@ -1,17 +1,17 @@
 class Brewkeeper < Formula
   desc "Clean terminal UI for safer Homebrew upgrades"
   homepage "https://github.com/Pallepadehat/brewkeeper"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
-    url "https://github.com/Pallepadehat/brewkeeper/releases/download/v0.2.1/brewkeeper-darwin-arm64.tar.gz"
-    sha256 "97819ce19f94d590f3207652b2e1053e209b5e298db8428d62409ce8290f8caa"
+    url "https://github.com/Pallepadehat/brewkeeper/releases/download/v0.2.2/brewkeeper-darwin-arm64.tar.gz"
+    sha256 "13e2476fb4d3a81d4346261e31bfdb8bf7a4a26708774344cc0c260b06582765"
   end
 
   on_linux do
-    url "https://github.com/Pallepadehat/brewkeeper/releases/download/v0.2.1/brewkeeper-linux-x64.tar.gz"
-    sha256 "e4f6539cc9aee0ac01451dbc59905b24f30a2ec1a3831acdbd19bef581dc2e26"
+    url "https://github.com/Pallepadehat/brewkeeper/releases/download/v0.2.2/brewkeeper-linux-x64.tar.gz"
+    sha256 "871ea2cb152b4d77b7c4bde5140f908ff8d1c561d335736b4d1d2e23a072e353"
   end
 
   def install
